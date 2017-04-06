@@ -1,12 +1,33 @@
 {
-  "name": "react-mentoring",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Maksym Chapliuk",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mchapliuk/react-mentoring.git"
-  },
-  "scripts": {}
+    "name": "react-mentoring",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Maksym Chapliuk",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mchapliuk/react-mentoring.git"
+    },
+    "scripts": {
+        "eslint": "node_modules\\.bin\\eslint",
+        "start": "webpack-dev-server",
+        "webpack": "node_modules\\.bin\\webpack"
+    },
+    "devDependencies": {
+        "babel-core": "^6.24.0",
+        "babel-loader": "^6.4.1",
+        "babel-preset-es2015": "^6.24.0",
+        "babel-preset-react": "^6.23.0",
+        "eslint": "^3.19.0",
+        "eslint-plugin-react": "^6.10.3",
+        "html-webpack-plugin": "^2.28.0"
+    },
+    "dependencies": {
+        "bootstrap": "4.0.0-alpha.6",
+        "path": "^0.12.7",
+        "react": "^15.4.2",
+        "react-dom": "^15.4.2",
+        "webpack": "^2.3.3",
+        "webpack-dev-server": "^2.4.2"
+    }
 }
