@@ -1,0 +1,12 @@
+{
+  "name": "react-mentoring",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maksym Chapliuk",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mchapliuk/react-mentoring.git"
+  },
+  "scripts": {}
+}
