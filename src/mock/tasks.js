@@ -1,7 +1,7 @@
-[
+export const TASKS = [
     {
         "id": 1,
-        "title": "Geekfarm",
+        "title": "Geekfarm Category",
         "isDone": true,
         "children": [
             {
@@ -69,7 +69,7 @@
     },
     {
         "id": 2,
-        "title": "Buzzmaker",
+        "title": "Category 2",
         "isDone": true,
         "children": [],
         "tasks": [
@@ -151,7 +151,7 @@
     },
     {
         "id": 4,
-        "title": "Zilphur",
+        "title": "Special Notes",
         "isDone": false,
         "children": [],
         "tasks": [
@@ -278,4 +278,4 @@
             }
         ]
     }
-]
+];
